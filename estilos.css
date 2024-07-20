@@ -292,7 +292,7 @@ header h3{
 }
 .principal_p{
     margin: auto;
-    margin-top: -30px;
+    margin-top: -120px;
     width: 80%;
     font-family: "Segoe UI",sans-serif;
     font-size: 30px;
@@ -354,18 +354,18 @@ header h3{
     height: 3px;
     background-color: green;
 }
-.about_me{
+#about_me{
     display: flex;
     flex-direction: column;
 }
-.about_me h3{
+#about_me h3{
     background-color:transparent ;
     padding-top: 30px;
     text-align: center;
     font-weight: 100;
     font-size: 25px;
 }
-.about_me h4{
+#about_me h4{
     margin-left: 10px;
     text-align: center;
     font-size: 15px;
@@ -566,7 +566,7 @@ footer{
   
 }
 
-.prices{
+#prices{
     margin-top: 40px;
 }
 .pricies_div{
@@ -703,6 +703,10 @@ footer{
 }
 @media (min-width:720px){
 
+  .principal_p{
+    margin-top: -30px;
+
+}
   .image-container_before {
 
     height: 500px; 
@@ -792,7 +796,7 @@ footer{
      .opinion{
         width: 25%;  
      }
-     .prices{
+     #prices{
         display: flex;
         flex-direction: row;
         margin-top: 0;
